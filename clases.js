@@ -25,7 +25,7 @@ class Persona {
   }
 }
 
-const persona1 = new Persona("Luis", 20, "Madrid", 100);
+const persona1 = new Persona("Luis", 20, "Barcelona", 100);
 persona1.comer(160);
 console.log(persona1);
 persona1.comer(10);
