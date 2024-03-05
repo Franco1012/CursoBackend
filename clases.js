@@ -3,7 +3,7 @@
 //se delara en singular
 //se declara representativo del recurso y en inglés
 
-class Persona {  
+class Persona {
   static cantidadPersonas = 0;
   constructor(nombre, edad, ciudad, vida) {
     this.nombre = nombre;
@@ -14,13 +14,13 @@ class Persona {
   }
   //metodos
   comer(cantidad) {
-    this.vida < 150 
+    this.vida < 150
       ? (this.vida = this.vida + cantidad)
       : console.log(`${this.nombre} no puedes comer mas`);
   }
   entrenar(cantidad) {
-    this.vida > 50 && cantidad<this.vida
-      ? (this.vida=this.vida - cantidad)
+    this.vida > 50 && cantidad < this.vida
+      ? (this.vida = this.vida - cantidad)
       : console.log(`${this.nombre} no puedes entrenar`);
   }
 }
@@ -30,5 +30,5 @@ persona1.comer(160);
 console.log(persona1);
 persona1.comer(10);
 persona1.entrenar(220);
-console.log(persona1)
-persona1.entrenar(10)
+console.log(persona1);
+persona1.entrenar(10);
