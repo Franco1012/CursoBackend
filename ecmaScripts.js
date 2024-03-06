@@ -1,3 +1,4 @@
+
 //método includes()
 
 /*const palabra1=`bet`
@@ -149,3 +150,4 @@ console.log(objetoCyN)*/
 const arrayDeArray=[1,2,3,[4,5,6],8];
 const arrayFlat=arrayDeArray.flat()
 console.log(arrayFlat)
+
