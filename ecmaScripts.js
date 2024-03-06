@@ -103,7 +103,49 @@ console.log(rest);*/
 
 //operador rest con array
 
-const datos=[`Franco`,35,`Córdoba`]
+/*const datos=[`Franco`,35,`Córdoba`]
 
 const [nombre,...rest]=datos
+console.log(rest)*/
+
+const n1=5;
+const n2=3;
+const n3=7;
+
+const c1=`hola`  
+const c2=`chau  `
+const c3=`  holaaaa   `
+
+const obj={
+
+  nombre:'Franco',
+  edad:38,
+  ciudad:`Córdoba`,
+  mascota:`perro`
+
+}
+
+/*const exponencial=n1**n3
+console.log(exponencial)*/
+
+/*const array=[`hola`,'chau',`holaaaa`]
+console.log(array.includes(c1))
+console.log(c3.trim())*/
+
+/*console.log(Object.keys(obj));
+console.log(Object.values(obj))
+console.log(Object.entries(obj))*/
+
+/*const{nombre,edad,...rest}=obj
+
 console.log(rest)
+console.log(nombre)
+console.log(edad)*/
+
+
+/*const objetoCyN={c1,c2,c3,n1,n2,n3}
+console.log(objetoCyN)*/
+
+const arrayDeArray=[1,2,3,[4,5,6],7];
+const arrayFlat=arrayDeArray.flat()
+console.log(arrayFlat)
