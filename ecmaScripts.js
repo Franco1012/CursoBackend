@@ -146,6 +146,6 @@ console.log(edad)*/
 /*const objetoCyN={c1,c2,c3,n1,n2,n3}
 console.log(objetoCyN)*/
 
-const arrayDeArray=[1,2,3,[4,5,6],7];
+const arrayDeArray=[1,2,3,[4,5,6],8];
 const arrayFlat=arrayDeArray.flat()
 console.log(arrayFlat)
