@@ -77,6 +77,7 @@ class NotesManager {
 
         try {
             const one = NotesManager.#notes.find(note=>note.id===id)
+          
                 if (one) {
                     return one
                 } else {
@@ -121,14 +122,15 @@ class NotesManager {
 
 
 const note = new NotesManager()
+/*console.log(note.read())*/
+note.create({ text: `` })
 console.log(note.read())
-note.create({ text: `nota1` })
 note.create({ text: `nota2` })
 note.create({ text: `nota3` })
 note.create({ text: `nota4` })
 note.create({ text: `nota5` })
 console.log(note.read())
-console.log(note.readOne(2))
-console.log(note.destroy(10))
+/*console.log(note.readOne(2))
+console.log(note.destroy(10))*/
 
 
