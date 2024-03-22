@@ -78,7 +78,6 @@ class NotesManager {
         try {
             const one = NotesManager.#notes.find(note=>note.id===id)
 
-
                 if (one) {
                     return one
                 } else {
