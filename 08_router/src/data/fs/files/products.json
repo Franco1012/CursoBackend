@@ -1,0 +1,18 @@
+[
+  {
+    "id": "f94e0535c2f4e81a",
+    "title": "modificado",
+    "photo": "img.jpg",
+    "category": "calzado",
+    "price": 90000,
+    "stock": 180
+  },
+  {
+    "id": "f94e0535c2f4e81c",
+    "title": "modificado",
+    "photo": "img.jpg",
+    "category": "accesorio",
+    "price": 90000,
+    "stock": 180
+  }
+]
